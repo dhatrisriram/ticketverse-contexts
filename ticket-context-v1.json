@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "TicketCredential": "https://ticketverse.io/credentials/TicketCredential",
+    "ticketRef": "https://ticketverse.io/vocab#ticketRef",
+    "eventName": "https://ticketverse.io/vocab#eventName",
+    "venue": "https://ticketverse.io/vocab#venue",
+    "eventDate": {
+      "@id": "https://ticketverse.io/vocab#eventDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "age_at_least_18": {
+      "@id": "https://ticketverse.io/vocab#age_at_least_18",
+      "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }
+}
